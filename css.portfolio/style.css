@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap'); /* Falls du Google Fonts nutzt */
+:root{
+     --main-brand-color: #297ae3;
+     --primary-color:#15171C;
+     --secondery-color: #232933;
+     --light-secondary-color:#2e3744;
+     --text-color:white;
+     --secondary-text-color: #b3b4b6; /* Korrekte Schreibweise */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+}
+h1{
+    font-size: 40px;
+    line-height:115%;
+}
+.subheading{
+    margin-top: 25px;
+    color: var(--secondary-text-color);
+}
