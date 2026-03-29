@@ -92,3 +92,11 @@ footer h2{
         font-size: 24px;
     }
 }
+.grid_item a {
+    color: white;
+    text-decoration: none;
+}
+
+.grid_item a:hover {
+    text-decoration: underline;
+}
